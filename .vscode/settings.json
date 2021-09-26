@@ -1,0 +1,26 @@
+{
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "prettier.disableLanguages": [
+        "javascript",
+        "javascriptreact"
+    ],
+    "prettier.configPath": "./prettierrc.json",
+    "eslint.run": "onSave",
+    "eslint.codeActionsOnSave": true,
+    "eslint.probe": [
+        "javascript",
+        "javascriptreact",
+        "html"
+    ],
+    "eslint.alwaysShowStatus": true
+}
